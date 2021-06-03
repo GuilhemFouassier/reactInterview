@@ -1,0 +1,23 @@
+@import '../../assets/css/variables.scss';
+
+.flex-select{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    label{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        color: $lightGrey;
+        margin-right: 5px;
+    }
+    select{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        color: $black;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 5px 10px; 
+    }
+}

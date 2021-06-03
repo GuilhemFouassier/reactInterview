@@ -1,0 +1,28 @@
+@import '../../assets/css/variables.scss';
+.option-bar{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.pagination{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    li{
+        cursor: pointer;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        color: $lightGrey;
+        margin: 0 10px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            color: $red;
+        }
+        &.active{
+            cursor: default;
+            color: $red;
+        }
+    }
+}
